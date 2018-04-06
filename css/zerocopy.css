@@ -1,0 +1,163 @@
+html, body{height:100%; margin:0;padding:0}
+
+body {
+	min-width: 425px;
+}
+ 
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+
+.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+
+.centering {
+  float:none;
+  margin:0 auto;
+}
+#zclogo.small {
+	max-height: 60px;
+}
+#zclett.small {
+	max-height: 35px;
+}
+#zclogo.large {
+	max-height: 100px;
+}
+
+#zclett.large {
+	max-height: 60px;
+}
+
+nav.navbar .avatar {
+	width: 55px;
+}
+
+.username {
+	font-weight: 500;
+	color: #999 !important;
+}
+
+.fake-tooltip {
+	max-width: 60%;
+	background-color: #424242;
+	color: #fff;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 20px;
+	padding: 2em 2.8em;
+	border-radius: 3px;
+}
+
+.fake-tooltip::after{
+    content: '';
+    position: absolute;
+    left: 48%;
+    bottom: -9px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #424242;
+    clear: both;
+}
+
+.text-primary {
+	color: #8BC53F !important;
+}
+
+a.text-primary:hover {
+	color: #7AB42E !important;
+}
+
+.bg-primary {
+	background-color: #8BC53F !important;
+}
+
+button.bg-primary:hover, a.bg-primary:hover {
+	background-color: #7AB42E !important;
+}
+
+.btn-primary {
+	background-color: #8BC53F !important;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #7AB42E !important;
+	border: none;
+}
+
+.btn-secondary {
+	background-color: #fff !important;
+	border: 1px solid #ccc !important;
+}
+.btn-secondary:hover {
+	background-color: #f5f5f5 !important;
+	color: #8BC53F !important;
+}
+
+.bg-blue {
+	background-color: #2196F3;
+}
+
+button.bg-blue:hover, a.bg-blue:hover {
+	background-color: #1085E2 !important;
+}
+
+.text-blue {
+	color: #2196F3;
+}
+
+.btn-gold {
+	background-color: #FFB324;
+	color: #fff;
+}
+
+.btn-gold:hover {
+	background-color: #EEA213;
+	color: #fff;
+}
+
+.text-gold {
+	color: #EEA213;
+}
+
+a[type=button] {
+	border: none;
+	-webkit-appearance: inherit;
+}
+
+@media (max-width: 780px) {
+	.fake-tooltip {
+		max-width: 100%;
+	}
+}
+.table thead th {
+	border-bottom: 1px solid #dee2e6;
+}
+.table th {
+	border-top: none;
+	text-transform: uppercase;
+	color: #666;
+}
+
+.table td {
+    border-top: 1px solid #f0f0f0;
+}
+
+.noborder {
+	border: none !important;
+}
+
+.bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
+	border-top-color: #424242;
+}
+
+.tooltip > .tooltip-inner {
+	background-color: #424242;
+	padding: 10px 25px;
+    font-size: 16px;
+}
