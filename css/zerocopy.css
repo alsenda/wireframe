@@ -2,6 +2,8 @@ html, body{height:100%; margin:0;padding:0}
 
 body {
 	min-width: 425px;
+	background-color: #E4E7ED;
+	font-family: Arial;
 }
  
 .container-fluid{
@@ -9,6 +11,37 @@ body {
   display:table;
   width: 100%;
   padding: 0;
+}
+
+.bg-light {
+	background-color: #DDE0E7 !important;
+	color: #444 !important;
+}
+
+.bg-lighter {
+	background-color: #E4E7ED !important;
+	color: #444 !important;
+}
+
+.bg-dark {
+	background-color: #494F5C !important;
+}
+
+.bg-darker {
+	background-color: #282C34 !important;
+	color: #e0e0e0 !important;
+}
+.navbar.bg-light {
+	border-bottom: 1px solid rgba(161, 167, 178, 0.5);
+}
+
+.navbar.bg-dark {
+	box-shadow: 1px 2px 3px rgba(0,0,0,0.45);
+	z-index: 999;
+}
+
+.border-light {
+	border-color: #d2d2d2 !important;
 }
 
 .row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
@@ -91,12 +124,16 @@ button.bg-primary:hover, a.bg-primary:hover {
 }
 
 .btn-secondary {
-	background-color: #fff !important;
+	background-color: #DDE0E7 !important;
 	border: 1px solid #ccc !important;
+	color: #444 !important;
 }
 .btn-secondary:hover {
-	background-color: #f5f5f5 !important;
-	color: #8BC53F !important;
+	background-color: #CCCFD6 !important;
+}
+
+.btn-secondary i {
+	color: #939393 !important;
 }
 
 .bg-blue {
@@ -113,6 +150,7 @@ button.bg-blue:hover, a.bg-blue:hover {
 
 .btn-gold {
 	background-color: #FFB324;
+	border: 1px solid #ea9a02;
 	color: #fff;
 }
 
@@ -160,4 +198,9 @@ a[type=button] {
 	background-color: #424242;
 	padding: 10px 25px;
     font-size: 16px;
+}
+
+table th {
+	padding: 0.3rem !important;
+	font-size: .7em;
 }
