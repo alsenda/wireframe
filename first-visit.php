@@ -5,7 +5,7 @@
     <?php include('templates/navigation.php'); ?>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-darker bg-darker m-0 p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark m-0 p-0">
       <div class="container p-0">
           <ul class="list-inline m-0 p-0">
             <li class="list-inline-item bg-lighter px-5 py-2 rounded-top m-0 mt-1">
