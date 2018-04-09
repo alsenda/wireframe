@@ -25,10 +25,11 @@ body {
 
 .bg-dark {
 	background-color: #494F5C !important;
+	color: #a3a6af;
 }
 
 .bg-darker {
-	background-color: #282C34 !important;
+	background-color: #a3a6af !important;
 	color: #e0e0e0 !important;
 }
 .navbar.bg-light {
@@ -70,13 +71,13 @@ nav.navbar .avatar {
 
 .username {
 	font-weight: 500;
-	color: #999 !important;
+	color: #d3d5da !important;
 }
 
 .fake-tooltip {
 	max-width: 60%;
-	background-color: #424242;
-	color: #fff;
+	background-color: #494F5C;
+	color: #d3d5da;
 	margin: 0 auto;
 	position: relative;
 	margin-bottom: 20px;
@@ -93,7 +94,7 @@ nav.navbar .avatar {
     height: 0;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 10px solid #424242;
+    border-top: 10px solid #494F5C;
     clear: both;
 }
 
@@ -121,6 +122,10 @@ button.bg-primary:hover, a.bg-primary:hover {
 .btn-primary:hover {
 	background-color: #7AB42E !important;
 	border: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+	border-color: #59920C !important;
 }
 
 .btn-secondary {
@@ -191,11 +196,11 @@ a[type=button] {
 }
 
 .bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
-	border-top-color: #424242;
+	border-top-color: #494F5C !important;
 }
 
 .tooltip > .tooltip-inner {
-	background-color: #424242;
+	background-color: #494F5C !important;
 	padding: 10px 25px;
     font-size: 16px;
 }
