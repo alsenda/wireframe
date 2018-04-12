@@ -16,5 +16,6 @@
     <link href="css/base.css" rel="stylesheet">
     <link href="css/zerocopy.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKIl5eIhag7hoaQ93HHzRlSqFfhC8djcI" type="text/javascript"></script>
 
   </head>

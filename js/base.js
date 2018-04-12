@@ -22,4 +22,26 @@ $(document).ready(function() {
 	$table.find('thead tr').children().each(function(i, v) {
 	    $(v).width(colWidth[i]);
 	});
+
+	setFloating();
 });
+
+$(window).resize(function() {
+	setFloating();
+});
+
+function initMap() {
+    var mapOptions = {
+            center: new google.maps.LatLng(50.713982, 4.677748),
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            zoom: 8
+          };	 
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+};
+
+function setFloating() {
+	$('.floating-panel.panel-right').each(function() {
+		$(this).css('right', $('#zclogo').offset().left+'px');
+		$(this).css('top', $('#top-nav').outerHeight());
+	});
+}

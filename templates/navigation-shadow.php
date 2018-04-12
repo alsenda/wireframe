@@ -1,7 +1,7 @@
 
 
     <!-- Navigation -->
-    <nav id="top-nav" class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <nav id="top-nav" class="navbar navbar-expand-lg navbar-dark bg-dark py-3 shadow-medium">
       <div class="container px-0">
         <a class="navbar-brand" href="index.php">
           <img id="zclogo" class="small" src="images/green-transparent-h-logo.png" />
