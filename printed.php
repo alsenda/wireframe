@@ -1,101 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
   <?php include('templates/head.php'); ?>
-  <body>
-  <?php include('templates/navigation.php'); ?>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark m-0 p-0">
-      <div class="container p-0">
-          <ul class="list-inline m-0 p-0">
-            <li class="list-inline-item bg-lighter px-5 py-2 rounded-top m-0 mt-1">
-              <i class="fas fa-folder-open"></i> My documents
-            </li>
-            <li class="list-inline-item bg-dark px-5 py-2 rounded-top m-0 mt-1">
-              <i class="fas fa-map"></i> Where to print
-            </li>
-          </ul>
-          <ul class="list-inline m-0 p-0">
-            <li class="list-inline-item">
-              <button class="btn btn-sm btn-gold px-5">Get more credits</button>
-            </li>
-            <li class="list-inline-item">
-            <small class="h5">My credits <strong>43</strong></small>
-            </li>
-          </ul>
-      </div>
-    </nav>
-    <!-- Page Content -->
-    <div class="container py-3">
+  <body class="bg-lighter h-100">
+    <div id="wrap">
+      <?php include('templates/navigation.php'); ?>
 
-      <!-- row -->
-        <div class="row">
+        <!-- Page Content -->
+        <div id="main" class="container pt-3 pb-5">
 
-        <!-- Post Content Column -->
-          <div class="col-lg-9">
+          <!-- row -->
+            <div class="row">
 
-            <!-- Title -->
-              <button href="first-visit.php" class="btn btn-lg btn-secondary text-primary py-3 px-4">
-                <span class="h5"><i class="h3 fas fa-cloud-upload-alt mr-2"></i>
-                Upload your documents
-                </span>
-              </button>
+            <!-- Post Content Column -->
+              <div class="col-lg-9">
+                  <h1>
+                    My documents
+                  </h1>
 
-              <div class="border bg-white border-light rounded p-2 my-2">
-                <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col" style="width: 4%;">SELECT</th>
-                    <th scope="col" style="width: 4%;"></th>
-                    <th scope="col" style="width: 45%;">FILE NAME</th>
-                    <th scope="col" style="width: 6%;">PAGES</th>
-                    <th scope="col" style="width: 30%;">STATUS</th>
-                    <th scope="col" style="width: 8%;"></th>
-                    <th scope="col" style="width: 3%;"></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><input type="checkbox" /></td>
-                    <td><i class="fas fa-file-pdf text-danger"></i></td>
-                    <td>Constitucion española 1</td>
-                    <td>54</td>
-                    <td><a href="#"><small class="text-secondary">GET MORE PRINT CREDITS</small></a></td>
-                    <td class="noborder"><i class="fas fa-bell text-gold"></i></td>
-                    <td class="noborder"><i class="fas fa-trash-alt text-secondary"></i></td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox" /></td>
-                    <td><i class="fas fa-file-pdf text-danger"></i></td>
-                    <td>101 jokes about eggs</td>
-                    <td>12</td>
-                    <td><small class="text-secondary">PRINTED</small></td>
-                    <td class="noborder"><i class="fas fa-check-circle text-info"></i><i class="fas fa-check-circle text-info"></i></td>
-                    <td class="noborder"><i class="fas fa-trash-alt text-secondary"></i></td>
-                  </tr>
-                  <tr>
-                    <td><input type="checkbox" /></td>
-                    <td><i class="fas fa-file-pdf text-danger"></i></td>
-                    <td>Sitting for dummies 2</td>
-                    <td>10</td>
-                    <td><small class="text-secondary">READY TO PRINT</small></td>
-                    <td class="noborder"><i class="fas fa-check-circle text-info"></i></td>
-                    <td class="noborder"><i class="fas fa-trash-alt text-secondary"></i></td>
-                  </tr>
-                </tbody>
-              </table>
-              <button class="btn btn-sm text-primary btn-secondary py-2 px-3"><i class="fas fa-home"></i> Home delivery</button>
-              <button class="btn btn-sm text-primary btn-secondary py-2 px-3"><i class="fas fa-map"></i> Where to print</button>
-            </div>
+                <!-- Title -->
+                  <button href="first-visit.php" class="btn btn-lg btn-secondary text-primary py-3 px-4"
+                   data-toggle="tooltip" data-placement="right" title="Upload from your computer the documents that you want to print for free">
+                    <span class="h5"><i class="h3 fas fa-cloud-upload-alt mr-2"></i>
+                    Upload your documents
+                    </span>
+                  </button>
+
+                  <div class="bg-white border-light rounded p-2 my-2 shadow-light">
+                    <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col" style="width: 4%;">SELECT</th>
+                        <th scope="col" style="width: 4%;"></th>
+                        <th scope="col" style="width: 45%;">FILE NAME</th>
+                        <th scope="col" style="width: 6%;">PAGES</th>
+                        <th scope="col" style="width: 30%;">STATUS</th>
+                        <th scope="col" style="width: 8%;"></th>
+                        <th scope="col" style="width: 3%;"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><input type="checkbox" /></td>
+                        <td><i class="fas fa-file-pdf text-danger"></i></td>
+                        <td>Constitucion española 1</td>
+                        <td>54</td>
+                        <td><a href="#"><small class="text-secondary">GET MORE PRINT CREDITS</small></a></td>
+                        <td class="noborder"><i class="fas fa-bell text-gold"></i></td>
+                        <td class="noborder"><i class="fas fa-trash-alt text-secondary"></i></td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" /></td>
+                        <td><i class="fas fa-file-pdf text-danger"></i></td>
+                        <td>101 jokes about eggs</td>
+                        <td>12</td>
+                        <td><small class="text-secondary">PRINTED</small></td>
+                        <td class="noborder"><i class="fas fa-check-circle text-info"></i><i class="fas fa-check-circle text-info"></i></td>
+                        <td class="noborder"><i class="fas fa-trash-alt text-secondary"></i></td>
+                      </tr>
+                      <tr>
+                        <td><input type="checkbox" /></td>
+                        <td><i class="fas fa-file-pdf text-danger"></i></td>
+                        <td>Sitting for dummies 2</td>
+                        <td>10</td>
+                        <td><small class="text-secondary">READY TO PRINT</small></td>
+                        <td class="noborder"><i class="fas fa-check-circle text-info"></i></td>
+                        <td class="noborder"><i class="fas fa-trash-alt text-secondary"></i></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <button class="btn btn-sm text-primary btn-secondary py-2 px-3"><i class="fas fa-home"></i> Home delivery</button>
+                  <button class="btn btn-sm text-primary btn-secondary py-2 px-3"><i class="fas fa-map"></i> Where to print</button>
+                </div>
+              </div>
+              <!-- /.col -->
           </div>
-          <!-- /.col -->
+          <!-- /.row -->
+
+        </div>
+        <!-- /.container -->
+
+        <?php include('templates/footer.php'); ?>
+        <!-- Bootstrap core JavaScript -->
       </div>
-      <!-- /.row -->
-
-    </div>
-    <!-- /.container -->
-
-    <?php include('templates/footer.php'); ?>
-    <!-- Bootstrap core JavaScript -->
   </body>
   <?php include('templates/javascripts.php'); ?>
 

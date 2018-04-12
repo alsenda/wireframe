@@ -3,10 +3,10 @@
   <?php include('templates/head.php'); ?>
   <?php include('templates/navigation.php'); ?>
   <div id="nav" data-type="include" data-src="components/navigation.html"></div>
-  <body>
+  <body class="bg-lighter">
 
     <!-- Page Content -->
-    <div class="container text-center pb-5">
+    <div class="container text-center pb-5 h-100">
 
     	<!-- row -->
       	<div class="row">
