@@ -6,7 +6,7 @@
     <?php include('templates/navigation.php'); ?>
 
     <!-- Page Content -->
-        <div id="main" class="container pt-3 pb-5">
+        <div id="main" class="container pt-3 pb-5 px-0">
 
         <!-- row -->
           <div class="row">
@@ -25,17 +25,17 @@
                   </span>
                 </button>
 
-                  <div class="bg-white border-light rounded p-2 my-2 shadow-light">
+                  <div class="bg-white border-light rounded p-2 my-2">
                   <table class="table table-fixed">
                     <thead>
                       <tr>
                         <th scope="col" style="width: 4%;">SELECT</th>
                         <th scope="col" style="width: 4%;"></th>
                         <th scope="col" style="width: 45%;">FILE NAME</th>
-                        <th scope="col" style="width: 6%;">PAGES</th>
-                        <th scope="col" style="width: 30%;">STATUS</th>
+                        <th scope="col" style="width: 10%;">PAGES</th>
+                        <th scope="col" style="width: 26%;">STATUS</th>
                         <th scope="col" style="width: 8%;"></th>
-                        <th scope="col" style="width: 3%;"></th>
+                        <th scope="col" style="width: 3%;">DELETE</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -59,6 +59,7 @@
                       </tr>
                     </tbody>
                   </table>
+                  <h1>SELECT ONE OPTION...</h1>
                   <a class="btn btn-sm text-white bg-blue py-2 px-3" href="printed.php" data-toggle="tooltip" data-placement="top" title="Try our home delivery service or go to your nearest Zerocopy printing location to get your documents for free if you are in a rush"><i class="fas fa-home"></i> Home delivery</a>
                   <a class="btn btn-sm text-white bg-primary py-2 px-3" href="printed.php" data-toggle="tooltip" data-placement="top" title="Try our home delivery service or go to your nearest Zerocopy printing location to get your documents for free if you are in a rush"><i class="fas fa-map"></i> Where to print</a>
                 </div>

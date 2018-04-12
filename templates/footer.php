@@ -5,7 +5,7 @@
       	<div class="row pb-2">
       		<div class="col-6 p-0">
       			<img id="zclogo" class="small" src="images/green-transparent-h-logo.png" style="filter: brightness(0) invert(1);"/>
-      			<img id="zclogo" class="small" src="images/green-transparent-h-letters.png" style="filter: brightness(0) invert(1); height: 35px;"/>
+      			<img id="zclett" class="small" src="images/green-transparent-h-letters.png" style="filter: brightness(0) invert(1); height: 35px;"/>
       		</div>
       		<div class="col-6 p-0">
 				<ul class="avatar text-right list-inline">

@@ -6,14 +6,14 @@
       <?php include('templates/navigation.php'); ?>
 
         <!-- Page Content -->
-        <div id="main" class="container pt-3 pb-5">
+        <div id="main" class="container pt-0 pb-5 px-0">
 
           <!-- row -->
             <div class="row">
 
             <!-- Post Content Column -->
               <div class="col-lg-9">
-                  <h1>
+                  <h1 class="mt-3">
                     My documents
                   </h1>
 
@@ -25,17 +25,17 @@
                     </span>
                   </button>
 
-                  <div class="bg-white border-light rounded p-2 my-2 shadow-light">
+                  <div class="bg-white border-light rounded p-2 my-2">
                     <table class="table">
                     <thead>
                       <tr>
                         <th scope="col" style="width: 4%;">SELECT</th>
                         <th scope="col" style="width: 4%;"></th>
                         <th scope="col" style="width: 45%;">FILE NAME</th>
-                        <th scope="col" style="width: 6%;">PAGES</th>
-                        <th scope="col" style="width: 30%;">STATUS</th>
+                        <th scope="col" style="width: 10%;">PAGES</th>
+                        <th scope="col" style="width: 26%;">STATUS</th>
                         <th scope="col" style="width: 8%;"></th>
-                        <th scope="col" style="width: 3%;"></th>
+                        <th scope="col" style="width: 3%;">DELETE</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -73,6 +73,16 @@
                 </div>
               </div>
               <!-- /.col -->
+              <div class="col-3 text-right">
+                <h1 class="pt-3 text-secondary">My credits</h1>
+                <div class="h4">
+                  <span class="text-primary">24</span> / 500
+                </div>
+                <button class="btn btn-gold btn-block py-3">GET MORE CREDITS</button>
+                <p class="text-secondary text-center pt-2">Fill in our surveys and get more credits</p>
+                <button class="btn btn-gold btn-block py-3 mt-4">INVITE FRIENDS</button>
+                <p class="text-secondary text-center pt-2">Invite friends and get more credits when they use Zerocopy</p>
+              </div>
           </div>
           <!-- /.row -->
 
