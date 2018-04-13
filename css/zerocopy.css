@@ -303,7 +303,7 @@ input[type='text'].form-control, textarea.form-control {
 	overflow-y: scroll;
 }
 ul#list-files li {
-	border: none !important;
+	border-bottom: 1px solid #dee2e6 !important;
 }
 
 ul#list-files li:last-child {
@@ -323,14 +323,11 @@ ul#list-files li:last-child {
 #list-files .list-group-item {
 	background-color: transparent;
 	padding-left: 2rem;
+	border: none;
 }
 
 #list-files li.uploading {
 	list-style: none;
-}
-
-#list-files .list-group-item:nth-child(odd) {
-    background-color: rgba(255,255,255,.3);
 }
 
 #list-files .progress {
@@ -349,10 +346,10 @@ ul#list-files li:last-child {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #8BC53F; 
+    background: #aaa; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #7AB42E; 
+    background: #bbb; 
 }

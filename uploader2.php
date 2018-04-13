@@ -26,12 +26,14 @@
                       </div>
                       <button class="btn btn-block bg-blue text-white py-2">BROWSE FILES</button>
                     </div>
-                    <div class="col-7 p-0">
-                      <div class="scrollable">
+                    <div class="col-7">
+                      <div class="">
                         <ul id="list-files" class="list-group">
-                          <li class="list-group-item bg-white border">
+                          <li class="list-group-item">
                             <div class="row">
-                              <div class="col-1 p-0"></div>
+                              <div class="col-1 p-0">
+                                <img src="images/zc_loading.gif" width="35px"/>
+                              </div>
                               <div class="col-8">
                                 <div class="filename text-truncate"><i class="fas fa-file-pdf text-danger"></i> New file dolor sit amet asdfa sdfasd fasdf asdf asdf asdf asdf.pdf</div>
                                 <div class="status ready text-info"><i class="fas fa-dot-circle text-info"></i> uploading</div>
