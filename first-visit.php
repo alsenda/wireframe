@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <?php include('templates/head.php'); ?>
-  <body class="bg-lighter h-100">
-    <div id="wrap">
+  <body class="bg-primary h-100">
+    <div id="wrap" class="bg-lighter">
     <?php include('templates/navigation.php'); ?>
 
     <!-- Page Content -->

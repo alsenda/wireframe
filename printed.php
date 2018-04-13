@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <?php include('templates/head.php'); ?>
-  <body class="bg-lighter h-100">
-    <div id="wrap">
+  <body class="bg-primary h-100">
+    <div id="wrap" class="bg-lighter">
       <?php include('templates/navigation.php'); ?>
 
         <!-- Page Content -->
@@ -18,16 +18,16 @@
                   </h1>
 
                 <!-- Title -->
-                  <button href="first-visit.php" class="btn btn-lg btn-secondary text-primary py-3 px-4"
+                  <button href="first-visit.php" class="btn btn-lg btn-primary py-3 px-4"
                    data-toggle="tooltip" data-placement="right" title="Upload from your computer the documents that you want to print for free">
                     <span class="h5"><i class="h3 fas fa-cloud-upload-alt mr-2"></i>
                     Upload your documents
                     </span>
                   </button>
 
-                  <div class="bg-white border-light rounded p-2 my-2">
+                  <div class="border rounded p-2 my-2 bg-light">
                     <table class="table">
-                    <thead>
+                    <thead >
                       <tr>
                         <th scope="col" style="width: 4%;">SELECT</th>
                         <th scope="col" style="width: 4%;"></th>
@@ -38,14 +38,14 @@
                         <th scope="col" style="width: 3%;">DELETE</th>
                       </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="bg-white">
                       <tr>
                         <td><input type="checkbox" /></td>
                         <td><i class="fas fa-file-pdf text-danger"></i></td>
                         <td>Constitucion española 1</td>
                         <td>54</td>
-                        <td><a href="#"><small class="text-secondary">GET MORE PRINT CREDITS</small></a></td>
-                        <td class="noborder"><i class="fas fa-bell text-gold"></i></td>
+                        <td><a href="#"><small class="text-gold">GET MORE PRINT CREDITS</small></a></td>
+                        <td class="noborder"><i class="fas fa-exclamation-triangle text-gold"></i></td>
                         <td class="noborder"><i class="fas fa-trash-alt text-secondary"></i></td>
                       </tr>
                       <tr>
@@ -53,8 +53,8 @@
                         <td><i class="fas fa-file-pdf text-danger"></i></td>
                         <td>101 jokes about eggs</td>
                         <td>12</td>
-                        <td><small class="text-secondary">PRINTED</small></td>
-                        <td class="noborder"><i class="fas fa-check-circle text-info"></i><i class="fas fa-check-circle text-info"></i></td>
+                        <td><small class="text-blue">PRINTED</small></td>
+                        <td class="noborder"><i class="fas fa-check-circle text-blue"></i></td>
                         <td class="noborder"><i class="fas fa-trash-alt text-secondary"></i></td>
                       </tr>
                       <tr>
@@ -62,7 +62,7 @@
                         <td><i class="fas fa-file-pdf text-danger"></i></td>
                         <td>Sitting for dummies 2</td>
                         <td>10</td>
-                        <td><small class="text-secondary">READY TO PRINT</small></td>
+                        <td><small class="text-primary">READY TO PRINT</small></td>
                         <td class="noborder"><i class="fas fa-check-circle text-info"></i></td>
                         <td class="noborder"><i class="fas fa-trash-alt text-secondary"></i></td>
                       </tr>

@@ -1,26 +1,16 @@
 
     <!-- Footer -->
-    <footer class="pt-4 pb-1 bg-light align-self-end">
+    <footer class="pt-4 pb-1 bg-primary align-self-end text-white">
       <div class="container">
       	<div class="row pb-2">
-      		<div class="col-6 p-0">
-      			<img id="zclogo" class="small" src="images/green-transparent-h-logo.png" style="filter: brightness(0) invert(1);"/>
-      			<img id="zclett" class="small" src="images/green-transparent-h-letters.png" style="filter: brightness(0) invert(1); height: 35px;"/>
+      		<div class="col-12 p-0">
+      			<img id="zclogo" class="small" src="images/green-transparent-h-logo.png" style="filter: brightness(0) invert(1);" />
+      			<img id="zclett" class="small" src="images/green-transparent-h-letters.png" style="filter: brightness(0) invert(1);" />
       		</div>
       		<div class="col-6 p-0">
-				<ul class="avatar text-right list-inline">
-					<li class="active list-inline-item">
-					  <a class="nav-link username py-0" href="#">ALVARO SENDON ALEU <img class="ml-2" src="images/alvatar.png" />
-					    <span class="sr-only">(current)</span>
-					  </a>
-					</li>
-					<li class="list-inline-item">
-						<a type="button" class="btn btn-danger m-0 text-white" href="index.php">Logout</a>
-					</li>
-				</ul>
       		</div>
       	</div>
-      	<div class="row border-top border-bottom">
+      	<div class="row border-top border-bottom border-white">
       		<div class="col-12 p-0">
 				<ul class="list-inline font-weight-bold py-3 m-0">
 					<li class="active list-inline-item mr-4">
@@ -41,7 +31,7 @@
       		</div>
       	</div>
       	<div class="row mt-4">
-      		<div class="col-12 p-0">
+      		<div class="col-6 p-0">
 	      		<h5>FOLLOW US</h5>
 	      		<ul class="list-inline">
 	      			<li class="list-inline-item">
@@ -52,10 +42,32 @@
 	      			</li>
 	      		</ul>
 	      	</div>
+      		<div class="col-6 p-0">
+				<form>
+					<div class="form-group">
+		      			<div class="row mb-2">
+		      				<div class="col-4">
+		      					<h1 class="text-white">NEED HELP?</h1>
+		      				</div>
+		      				<div class="col-8">
+			      					<input type="text" class="form-control" placeholder="Subject" />
+		      				</div>
+		      			</div>
+		  				<div class="row">
+		      				<div class="col-4">
+		      				</div>
+		      				<div class="col-8">
+		      					<textarea class="form-control" rows="4" placeholder="Describe your problem"></textarea>
+  								<button type="submit" class="text-right btn btn-blue px-5 mt-2 py-2 float-right">SEND</button>
+		      				</div>
+	      				</div>
+      				</div>
+  				</form>	
+      		</div>
 	      </div>
-	      <div class="row mt-5">
-	      	<div class="col-12 mt-5 text-center">
-	      		<p style="color: #DDD;">&copy;2018 Studifix BVBA. All Rights Reserved.</p>
+	      <div class="row border-top border-white">
+	      	<div class="col-12 my-3 p-0 text-center">
+	      		<small>&copy;2018 Studifix BVBA. All Rights Reserved.</small>
 	      	</div>
 	      </div>
       </div>

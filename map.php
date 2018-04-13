@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <?php include('templates/head.php'); ?>
-  <body class="bg-lighter h-100" onload="initMap();">
+  <body class="bg-primary h-100" onload="initMap();">
     <div id="wrap">
       <?php include('templates/navigation-shadow.php'); ?>
                 <div id="map"></div>

@@ -19,12 +19,12 @@ h1 {
 }
 
 .bg-light {
-	background-color: #87949A !important;
-	color: #f9f9f9 !important;
+	background-color: #efefef !important;
+	color: #777 !important;
 }
 
 .bg-lighter {
-	background-color: #FEFEFE !important;
+	background-color: #f9f9f9 !important;
 	color: #444 !important;
 }
 
@@ -49,6 +49,13 @@ h1 {
 	border-color: #d2d2d2 !important;
 }
 
+.dashed {
+	border-style: dashed !important;
+}
+
+.border-thick {
+	border-width: 2px !important;
+}
 .row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
 
 .centering {
@@ -56,10 +63,10 @@ h1 {
   margin:0 auto;
 }
 #zclogo.small {
-	max-height: 60px;
+	max-height: 50px;
 }
 #zclett.small {
-	max-height: 35px;
+	max-height: 25px;
 }
 #zclogo.large {
 	max-height: 100px;
@@ -144,6 +151,21 @@ button.bg-primary:hover, a.bg-primary:hover {
 
 .btn-secondary i {
 	color: #939393 !important;
+}
+
+.btn-blue {
+	background-color: #004566 !important;
+	border: none;
+	color: #fff !important;
+}
+
+.bg-blue {
+	background-color: #004566 !important;
+	color: #fff;
+}
+
+.text-blue {
+	color: #004566 !important;
 }
 
 .bg-blue {
@@ -233,7 +255,7 @@ table th {
 }
 
 .shadow-medium {
-	box-shadow: 1px 1px 7px rgba(0,0,0,0.4);
+	box-shadow: 1px 1px 7px rgba(0,0,0,0.2);
 
 }
 
@@ -261,4 +283,57 @@ table th {
 
 .floating-panel.panel-right {
 	right: 0;
+}
+
+input[type='text'].form-control, textarea.form-control {
+    border: 1px solid #bde687;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 1rem;
+    color: #999;
+}
+
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+.scrollable {
+	max-height: 438px;
+	overflow-y: scroll;
+}
+ul#list-files li {
+	border: none !important;
+}
+
+ul#list-files li:last-child {
+	border-bottom: none !important;
+}
+
+#list-files .details {
+	font-size: .75rem;
+	color: #999;
+}
+
+#list-files .status {
+	font-size: .60rem;
+	text-transform: uppercase;
+}
+
+#list-files .list-group-item {
+	background-color: transparent;
+	padding-left: 2rem;
+}
+
+#list-files li.uploading {
+	list-style: none;
+}
+
+#list-files .list-group-item:nth-child(odd) {
+    background-color: rgba(255,255,255,.3);
+}
+
+#list-files .progress {
+	border-radius: 0;
+	height:5px;
 }
