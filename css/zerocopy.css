@@ -299,7 +299,7 @@ input[type='text'].form-control, textarea.form-control {
 .form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
 
 .scrollable {
-	max-height: 438px;
+	max-height: 356px;
 	overflow-y: scroll;
 }
 ul#list-files li {
@@ -336,4 +336,23 @@ ul#list-files li:last-child {
 #list-files .progress {
 	border-radius: 0;
 	height:5px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #E0E0E0; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8BC53F; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7AB42E; 
 }

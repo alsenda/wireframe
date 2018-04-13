@@ -26,91 +26,93 @@
                       </div>
                       <button class="btn btn-block bg-blue text-white py-2">BROWSE FILES</button>
                     </div>
-                    <div class="col-7 p-0 scrollable">
-                      <ul id="list-files" class="list-group">
-                        <li class="list-group-item bg-white border">
-                          <div class="row">
-                            <div class="col-1 p-0"></div>
-                            <div class="col-8">
-                              <div class="filename text-truncate"><i class="fas fa-file-pdf text-danger"></i> New file dolor sit amet asdfa sdfasd fasdf asdf asdf asdf asdf.pdf</div>
-                              <div class="status ready text-info"><i class="fas fa-dot-circle text-info"></i> uploading</div>
+                    <div class="col-7 p-0">
+                      <div class="scrollable">
+                        <ul id="list-files" class="list-group">
+                          <li class="list-group-item bg-white border">
+                            <div class="row">
+                              <div class="col-1 p-0"></div>
+                              <div class="col-8">
+                                <div class="filename text-truncate"><i class="fas fa-file-pdf text-danger"></i> New file dolor sit amet asdfa sdfasd fasdf asdf asdf asdf asdf.pdf</div>
+                                <div class="status ready text-info"><i class="fas fa-dot-circle text-info"></i> uploading</div>
+                              </div>
+                              <div class="col-3"></div>
                             </div>
-                            <div class="col-3"></div>
-                          </div>
-                          <div class="row p-0 m-0">
-                            <div class="col-12 p-0 m-0">
-                            </div>
-                          </div>
-                        </li>
-                        <li class="uploading">
-                              <div class="progress">
-                                <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div></li>
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-1 p-0"><input type="checkbox" /></div>
-                            <div class="col-8">
-                              <div class="filename"><i class="fas fa-file-pdf text-danger"></i> ConstitucionESP.pdf</div>
-                              <div class="status ready text-primary"><i class="fas fa-dot-circle text-primary"></i> ready to print</div>
-                              <div class="details">
-                                <?php
-                                $date = new DateTime('2018-03-09 18:41');
-                                echo $date->format('jS F Y, H:i');
-                                ?>
+                            <div class="row p-0 m-0">
+                              <div class="col-12 p-0 m-0">
                               </div>
                             </div>
-                            <div class="col-3"><strong>45</strong> <small>pages</small></div>
-                          </div>
-                        </li>
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-1 p-0"><input type="checkbox" /></div>
-                            <div class="col-8">
-                              <div class="filename"><i class="fas fa-file-pdf text-danger"></i> Sitting for Dummies.pdf</div>
-                              <div class="status ready text-primary"><i class="fas fa-dot-circle text-primary"></i> ready to print</div>
-                              <div class="details">
-                                <?php
-                                $date = new DateTime('2018-04-11 9:01');
-                                echo $date->format('jS F Y, H:i');
-                                ?>
+                          </li>
+                          <li class="uploading">
+                                <div class="progress">
+                                  <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div></li>
+                          <li class="list-group-item">
+                            <div class="row">
+                              <div class="col-1 p-0"><input type="checkbox" /></div>
+                              <div class="col-8">
+                                <div class="filename"><i class="fas fa-file-pdf text-danger"></i> ConstitucionESP.pdf</div>
+                                <div class="status ready text-primary"><i class="fas fa-dot-circle text-primary"></i> ready to print</div>
+                                <div class="details">
+                                  <?php
+                                  $date = new DateTime('2018-03-09 18:41');
+                                  echo $date->format('jS F Y, H:i');
+                                  ?>
+                                </div>
                               </div>
+                              <div class="col-3"><strong>45</strong> <small>pages</small></div>
                             </div>
-                            <div class="col-3"><strong>12</strong> <small>pages</small></div>
-                          </div>
-                        </li>
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-1 p-0"><input type="checkbox" /></div>
-                            <div class="col-8">
-                              <div class="filename"><i class="fas fa-file-pdf text-danger"></i> Moar_testing.pdf</div>
-                              <div class="status ready text-primary"><i class="fas fa-dot-circle text-primary"></i> ready to print</div>
-                              <div class="details">
-                                <?php
-                                $date = new DateTime('2018-03-17 15:41');
-                                echo $date->format('jS F Y, H:i');
-                                ?>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                              <div class="col-1 p-0"><input type="checkbox" /></div>
+                              <div class="col-8">
+                                <div class="filename"><i class="fas fa-file-pdf text-danger"></i> Sitting for Dummies.pdf</div>
+                                <div class="status ready text-primary"><i class="fas fa-dot-circle text-primary"></i> ready to print</div>
+                                <div class="details">
+                                  <?php
+                                  $date = new DateTime('2018-04-11 9:01');
+                                  echo $date->format('jS F Y, H:i');
+                                  ?>
+                                </div>
                               </div>
+                              <div class="col-3"><strong>12</strong> <small>pages</small></div>
                             </div>
-                            <div class="col-3"><strong>45</strong> <small>pages</small></div>
-                          </div>
-                        </li>
-                        <li class="list-group-item">
-                          <div class="row">
-                            <div class="col-1 p-0"><input type="checkbox" /></div>
-                            <div class="col-8">
-                              <div class="filename"><i class="fas fa-file-pdf text-danger"></i> TESTING.pdf</div>
-                              <div class="status ready text-primary"><i class="fas fa-dot-circle text-primary"></i> ready to print</div>
-                              <div class="details">
-                                <?php
-                                $date = new DateTime('2018-03-17 15:41');
-                                echo $date->format('jS F Y, H:i');
-                                ?>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                              <div class="col-1 p-0"><input type="checkbox" /></div>
+                              <div class="col-8">
+                                <div class="filename"><i class="fas fa-file-pdf text-danger"></i> Moar_testing.pdf</div>
+                                <div class="status ready text-primary"><i class="fas fa-dot-circle text-primary"></i> ready to print</div>
+                                <div class="details">
+                                  <?php
+                                  $date = new DateTime('2018-03-17 15:41');
+                                  echo $date->format('jS F Y, H:i');
+                                  ?>
+                                </div>
                               </div>
+                              <div class="col-3"><strong>45</strong> <small>pages</small></div>
                             </div>
-                            <div class="col-3"><strong>45</strong> <small>pages</small></div>
-                          </div>
-                        </li>
-                      </ul>
+                          </li>
+                          <li class="list-group-item">
+                            <div class="row">
+                              <div class="col-1 p-0"><input type="checkbox" /></div>
+                              <div class="col-8">
+                                <div class="filename"><i class="fas fa-file-pdf text-danger"></i> TESTING.pdf</div>
+                                <div class="status ready text-primary"><i class="fas fa-dot-circle text-primary"></i> ready to print</div>
+                                <div class="details">
+                                  <?php
+                                  $date = new DateTime('2018-03-17 15:41');
+                                  echo $date->format('jS F Y, H:i');
+                                  ?>
+                                </div>
+                              </div>
+                              <div class="col-3"><strong>45</strong> <small>pages</small></div>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                   <div class="row pb-0">
