@@ -19,14 +19,14 @@
                   </div>
 
                   <div class="row pb-0">
-                    <div class="col-6 p-0">
+                    <div class="col-5 p-0">
                       <div class="border dashed border-thick py-5 text-center bg-lighter">
                         <i class="fas fa-cloud-upload-alt display-1 text-primary mt-5 mb-3"></i>
                         <div class="h4 mb-4">Drag your files to upload</div>
                       </div>
                       <button class="btn btn-block bg-blue text-white py-2">BROWSE FILES</button>
                     </div>
-                    <div class="col-6 p-0 scrollable">
+                    <div class="col-7 p-0 scrollable">
                       <ul id="list-files" class="list-group">
                         <li class="list-group-item bg-white border">
                           <div class="row">
