@@ -5,7 +5,7 @@
       <div class="container px-0">
         <a class="navbar-brand" href="index.php">
           <img id="zclogo" class="small" src="images/green-transparent-h-logo.png" />
-          <img id="zclett" class="small" src="images/green-transparent-h-letters.png" style="filter: brightness(0) invert(1);" />
+          <img id="zclett" class="small" src="images/green-transparent-h-letters.png" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

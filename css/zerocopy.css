@@ -259,6 +259,11 @@ table th {
 
 }
 
+.shadow-dark {
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.6);
+
+}
+
 .vbottom{
     position: relative;
     top: 100%;
@@ -303,7 +308,6 @@ input[type='text'].form-control, textarea.form-control {
 	overflow-y: scroll;
 }
 ul#list-files li {
-	border-bottom: 1px solid #dee2e6 !important;
 }
 
 ul#list-files li:last-child {

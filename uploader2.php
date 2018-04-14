@@ -2,7 +2,7 @@
 <html lang="en">
   <?php include('templates/head.php'); ?>
   <body class="bg-primary h-100">
-    <div id="wrap" class="bg-light">
+    <div id="wrap" class="bg-dark">
       <?php include('templates/navigation.php'); ?>
 
         <!-- Page Content -->
@@ -12,21 +12,22 @@
             <div class="row">
 
             <!-- Post Content Column -->
-              <div class="col-lg-9">
-                <div class="my-2 py-4">
+              <div class="col-lg-9 bg-white px-4 shadow-dark rounded">
+                <div class="my-1 py-3 pl-3">
                   <div class="row pb-0">
-                    <h3>File upload</h3>
+                    <h3 class="text-blue">File upload</h3>
                   </div>
 
                   <div class="row pb-0">
                     <div class="col-5 p-0">
                       <div class="border dashed border-thick py-5 text-center bg-lighter">
-                        <i class="fas fa-cloud-upload-alt display-1 text-primary mt-5 mb-3"></i>
-                        <div class="h4 mb-4">Drag your files to upload</div>
+                        <i class="fas fa-upload display-1 mt-5 mb-3" style="color:#d1d4d5;"></i>
+                        <div class="h4">Drag your files to upload</div>
+                        <small class="mb-4">only pdf</small>
                       </div>
-                      <button class="btn btn-block bg-blue text-white py-2">BROWSE FILES</button>
+                      <button class="btn btn-block bg-blue text-white py-2 mt-2">BROWSE FILES</button>
                     </div>
-                    <div class="col-7">
+                    <div class="col-7 pr-5">
                       <div class="">
                         <ul id="list-files" class="list-group">
                           <li class="list-group-item">
@@ -100,29 +101,27 @@
                             </div>
                           </li>
                         </ul>
+                      <div class="text-right">
+                  <a class="btn btn-sm text-white bg-blue py-2 px-3" href="printed.php" data-toggle="tooltip" data-placement="top" title="Try our home delivery service or go to your nearest Zerocopy printing location to get your documents for free if you are in a rush"><i class="fas fa-home"></i> Home delivery</a>
+                  <a class="btn btn-sm text-white bg-primary py-2 px-3" href="map.php" data-toggle="tooltip" data-placement="top" title="Try our home delivery service or go to your nearest Zerocopy printing location to get your documents for free if you are in a rush"><i class="fas fa-map"></i> Where to print</a>
+                      </div>
                       </div>
                     </div>
                   </div>
                   <div class="row pb-0">
                     <div class="col-12 text-right">
-                      <div class="text-right">
-                  <a class="btn btn-sm text-white bg-blue py-2 px-3" href="printed.php" data-toggle="tooltip" data-placement="top" title="Try our home delivery service or go to your nearest Zerocopy printing location to get your documents for free if you are in a rush"><i class="fas fa-home"></i> Home delivery</a>
-                  <a class="btn btn-sm text-white bg-primary py-2 px-3" href="map.php" data-toggle="tooltip" data-placement="top" title="Try our home delivery service or go to your nearest Zerocopy printing location to get your documents for free if you are in a rush"><i class="fas fa-map"></i> Where to print</a>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
               <!-- /.col -->
-              <div class="col-3 text-right border-left">
-                <h1 class="pt-3 text-secondary">My credits</h1>
+              <div class="col-3 text-right">
+                <h1 class="pt-3 text-light">My credits</h1>
                 <div class="h4">
                   <span class="text-primary">24</span> / 500
                 </div>
-                <button class="btn btn-gold btn-block py-3">GET MORE CREDITS</button>
-                <p class="text-secondary text-center pt-2">Fill in our surveys and get more credits</p>
-                <button class="btn btn-gold btn-block py-3 mt-4">INVITE FRIENDS</button>
-                <p class="text-secondary text-center pt-2">Invite friends and get more credits when they use Zerocopy</p>
+                <button class="btn btn-gold btn-block py-3 font-weight-bold">GET MORE CREDITS</button>
+                <p class="text-light text-center pt-2">Fill in our surveys or invite your friends and get more credits</p>
               </div>
           </div>
           <!-- /.row -->
