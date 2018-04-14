@@ -164,8 +164,22 @@ button.bg-primary:hover, a.bg-primary:hover {
 	color: #fff;
 }
 
+.bg-sky {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a1dbff+0,cbebff+34,f0f9ff+100,f0f9ff+101 */
+	background: #a1dbff; /* Old browsers */
+	background: -moz-linear-gradient(top, #a1dbff 0%, #cbebff 34%, #f0f9ff 100%, #f0f9ff 101%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #a1dbff 0%,#cbebff 34%,#f0f9ff 100%,#f0f9ff 101%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #a1dbff 0%,#cbebff 34%,#f0f9ff 100%,#f0f9ff 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=0 ); /* IE6-9 */
+	color: #004566;
+}
+
 .text-blue {
 	color: #004566 !important;
+}
+
+.text-light {
+	color: #dfe1e2 !important;
 }
 
 .bg-blue {
@@ -200,9 +214,17 @@ a[type=button] {
 	-webkit-appearance: inherit;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 990px) {
 	.fake-tooltip {
 		max-width: 100%;
+	}
+	.floating-panel {
+	  position: relative !important;
+	  z-index: 5;
+	  top:0;
+	  padding: 5px;
+	  line-height: 30px;
+	  padding-left: 10px;
 	}
 }
 .table thead th {
@@ -288,6 +310,8 @@ table th {
 
 .floating-panel.panel-right {
 	right: 0;
+	right: 16px;
+    top: 92px;
 }
 
 input[type='text'].form-control, textarea.form-control {

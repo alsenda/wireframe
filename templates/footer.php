@@ -1,16 +1,8 @@
 
     <!-- Footer -->
-    <footer class="pt-4 pb-1 bg-primary align-self-end text-white">
+    <footer class="pt-2 pb-1 bg-primary align-self-end text-white">
       <div class="container">
-      	<div class="row pb-2">
-      		<div class="col-12 p-0">
-      			<img id="zclogo" class="small" src="images/green-transparent-h-logo.png" style="filter: brightness(0) invert(1);" />
-      			<img id="zclett" class="small" src="images/green-transparent-h-letters.png" style="filter: brightness(0) invert(1);" />
-      		</div>
-      		<div class="col-6 p-0">
-      		</div>
-      	</div>
-      	<div class="row border-top border-bottom border-white">
+      	<div class="row border-bottom border-white">
       		<div class="col-12 p-0">
 				<ul class="list-inline font-weight-bold py-3 m-0">
 					<li class="active list-inline-item mr-4">
@@ -47,7 +39,7 @@
 					<div class="form-group">
 		      			<div class="row mb-2">
 		      				<div class="col-4">
-		      					<h1 class="text-white">NEED HELP?</h1>
+		      					<h4 class="text-white text-right">NEED HELP?</h4>
 		      				</div>
 		      				<div class="col-8">
 			      					<input type="text" class="form-control" placeholder="Subject" />

@@ -7,7 +7,7 @@
                 <div id="map"></div>
                 <div class="container">
                   <div class="row">
-                  <div class="floating-panel panel-right col-2 text-right shadow-medium py-2">
+                  <div class="floating-panel panel-right col-lg-2 col-md-12 col-sm-12 text-right shadow-medium py-2">
                     <h1 class="pt-3 text-secondary">My credits</h1>
                     <div class="h4">
                       <span class="text-primary">24</span> / 500

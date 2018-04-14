@@ -40,8 +40,10 @@ function initMap() {
 };
 
 function setFloating() {
-	$('.floating-panel.panel-right').each(function() {
-		$(this).css('right', $('#zclogo').offset().left+'px');
-		$(this).css('top', $('#top-nav').outerHeight());
-	});
+	if($(window).width >= 990 ){
+		$('.floating-panel.panel-right').each(function() {
+			$(this).css('right', $('#zclogo').offset().left+'px');
+			$(this).css('top', $('#top-nav').outerHeight());
+		});
+	}
 }

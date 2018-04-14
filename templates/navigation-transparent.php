@@ -1,11 +1,11 @@
 
 
     <!-- Navigation -->
-    <nav id="top-nav" class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <nav id="top-nav" class="navbar navbar-expand-lg navbar-dark py-3">
       <div class="container px-0">
         <a class="navbar-brand" href="index.php">
-          <img id="zclogo" class="small" src="images/green-transparent-h-logo.png" style="filter: brightness(0) invert(1);" />
-          <img id="zclett" class="small" src="images/green-transparent-h-letters.png" style="filter: brightness(0) invert(1);" />
+            <img id="zclogo" class="small" src="images/green-transparent-h-logo.png" style="filter: brightness(0) invert(1);" />
+            <img id="zclett" class="small" src="images/green-transparent-h-letters.png" style="filter: brightness(0) invert(1);" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -13,7 +13,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav avatar ml-auto align-middle">
             <li class="nav-item active">
-              <a class="nav-link username py-0" href="#">ALVARO SENDON ALEU <img class="ml-2" src="images/alvatar.png" />
+              <a class="nav-link username py-0 text-blue" href="#">ALVARO SENDON ALEU <img class="ml-2" src="images/alvatar.png" />
                 <span class="sr-only">(current)</span>
               </a>
             </li>
