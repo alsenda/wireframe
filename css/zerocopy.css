@@ -69,11 +69,15 @@ h1 {
 	max-height: 25px;
 }
 #zclogo.large {
-	max-height: 100px;
+	max-height: 70px;
+	-webkit-filter: brightness(0) invert(1) drop-shadow(1px 1px 3px #222);
+	filter: brightness(0) invert(1) drop-shadow(1px 1px 3px rgba(0,0,0,.2));
 }
 
 #zclett.large {
-	max-height: 60px;
+	max-height: 35px;
+	-webkit-filter: brightness(0) invert(1) drop-shadow(1px 1px 3px #222);
+	filter: brightness(0) invert(1) drop-shadow(1px 1px 3px rgba(0,0,0,.2));
 }
 
 .avatar img {
@@ -164,6 +168,22 @@ button.bg-primary:hover, a.bg-primary:hover {
 	color: #fff;
 }
 
+.bg-cyan {
+	background-color: #3fc5b3 !important;
+}
+
+.bg-magenta {
+	background-color: #c53f8b !important;
+}
+
+.text-magenta {
+	color: #c53f8b !important;
+}
+
+.text-cyan {
+	color: #3fc5b3 !important;
+}
+
 .bg-sky {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a1dbff+0,cbebff+34,f0f9ff+100,f0f9ff+101 */
 	background: #a1dbff; /* Old browsers */
@@ -172,6 +192,15 @@ button.bg-primary:hover, a.bg-primary:hover {
 	background: linear-gradient(to bottom, #a1dbff 0%,#cbebff 34%,#f0f9ff 100%,#f0f9ff 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1dbff', endColorstr='#f0f9ff',GradientType=0 ); /* IE6-9 */
 	color: #004566;
+}
+
+.bg-full {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8bc53f+0,9abf67+50,8bc53f+100 */
+background: rgb(139,197,63); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(139,197,63,1) 0%, rgba(154,191,103,1) 50%, rgba(139,197,63,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(139,197,63,1) 0%,rgba(154,191,103,1) 50%,rgba(139,197,63,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(139,197,63,1) 0%,rgba(154,191,103,1) 50%,rgba(139,197,63,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bc53f', endColorstr='#8bc53f',GradientType=0 ); /* IE6-9 */
 }
 
 .text-blue {
@@ -380,4 +409,9 @@ ul#list-files li:last-child {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #bbb; 
+}
+
+#upload-widget {
+	font-size: .8em !important;
+	border-radius: 10px;
 }
