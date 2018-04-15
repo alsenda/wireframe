@@ -13,7 +13,11 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav avatar ml-auto align-middle">
             <li class="nav-item active">
-              <a class="nav-link text-white py-0" href="#">ALVARO SENDON ALEU <i class="fas fa-caret-down"></i> <img class="ml-2" src="images/alvatar.png" />
+              <img class="ml-2 float-right" src="images/alvatar.png" />
+              <div class="float-left text-right">
+              <a class="nav-link text-white py-0" href="#">ALVARO SENDON ALEU <i class="fas fa-caret-down"></i><br>
+                <span class="text-blue"><span class="text-white">24</span>/500 credits</span> 
+              </div>  
                 <span class="sr-only">(current)</span>
               </a>
             </li>

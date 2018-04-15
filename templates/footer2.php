@@ -20,6 +20,9 @@
 					<li class="active list-inline-item">
 						<a href="#" class="text-white">FAQ</a>
 					</li>
+					<li class="list-inline-item">
+						<a class="text-white"><button class="btn btn-gold btn-sm font-weight-bold text-white">GET MORE CREDITS</button></a>
+					</li>
       		</div>
       	</div>
       	<div class="row mt-4">
@@ -42,7 +45,7 @@
 		      				</div>
 		      				<div class="col-8">
 		      					<textarea class="form-control" rows="4" placeholder="Describe your problem"></textarea>
-  								<button type="submit" class="text-right btn bg-cyan px-5 mt-2 py-2 float-right text-white font-weight-bold">SEND</button>
+  								<button type="submit" class="text-right btn btn-cyan px-5 mt-2 py-2 float-right text-white font-weight-bold">SEND</button>
 		      				</div>
 	      				</div>
       				</div>
