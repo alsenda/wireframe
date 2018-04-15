@@ -121,12 +121,10 @@
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <div class="message warning">
-                  Fill in our surveys or invite your friends and <button class="btn btn-gold btn-sm font-weight-bold text-white">GET MORE CREDITS</button>
+                  You don't have enough credits to print all your documents. Fill in our surveys or invite your friends and <button class="btn btn-gold btn-sm font-weight-bold text-white">GET MORE CREDITS</button>.
                 </div>
                 <div class="message success">
-                  You just earned 250 credits by filling up a promo code.
-                </div>
-                <div class="message info">
+                  You just earned <span class="text-warning">250</span> credits by filling up a promo code. <br>
                   In 6 days your credits will be refilled to <span class="text-warning">500</span>.
                 </div>
               </div>
