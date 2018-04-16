@@ -24,6 +24,11 @@ $(document).ready(function() {
 	});
 
 	setFloating();
+
+	$('.message::after').click(function() {
+		console.log("yay");
+		$(this).parent.hide();
+	})
 });
 
 $(window).resize(function() {

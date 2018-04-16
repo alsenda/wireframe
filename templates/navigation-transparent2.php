@@ -2,7 +2,7 @@
 
     <!-- Navigation -->
     <nav id="top-nav" class="navbar navbar-expand-lg navbar-dark pt-2 pb-4 px-0">
-      <div class="container-fluid px-5">
+      <div class="container px-5">
         <a class="navbar-brand" href="index.php">
           <img id="zclogo" class="large" src="images/green-transparent-h-logo.png" />
           <img id="zclett" class="large" src="images/green-transparent-h-letters.png" />
